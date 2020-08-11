@@ -1,0 +1,2 @@
+C:\Users\yukkop\Documents\RoadChamer\Game\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+C:\Users\yukkop\Documents\RoadChamer\Game\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
