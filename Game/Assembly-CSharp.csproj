@@ -55,14 +55,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Player\Movement.cs" />
+     <Compile Include="Assets\Map\ChunkControler.cs" />
      <Compile Include="Assets\Map\Map.cs" />
+     <Compile Include="Assets\Player\RoadDestroer.cs" />
      <Compile Include="Assets\Map\MapGenerator.cs" />
+     <Compile Include="Assets\Map\Ways\HidenTiles.cs" />
+     <Compile Include="Assets\Map\City\CityChunk.cs" />
+     <Compile Include="Assets\Map\Models\LinkElement.cs" />
+     <Compile Include="Assets\Map\AbstractChuck.cs" />
      <Compile Include="Assets\Map\Models\Region.cs" />
-     <Compile Include="Assets\Map\AbstractCell.cs" />
-     <Compile Include="Assets\Map\CellBuilder.cs" />
+     <Compile Include="Assets\Map\MapChunk.cs" />
+     <Compile Include="Assets\CustomLib.cs" />
+     <Compile Include="Assets\UI\Scripts\ClickButtonEvent.cs" />
      <Compile Include="Assets\Map\Noise.cs" />
+     <Compile Include="Assets\Player\RoadCreator.cs" />
      <Compile Include="Assets\Map\Models\TypeOfWays.cs" />
-     <Compile Include="Assets\Controler.cs" />
+     <Compile Include="Assets\Player\Controler.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/yukkop/Documents/RoadChamer/Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

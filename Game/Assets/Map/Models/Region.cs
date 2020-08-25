@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Build;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
@@ -7,7 +8,9 @@ using UnityEngine.Tilemaps;
 [System.Serializable]
 public struct Region 
 {
-    public string name;
+    public ChunkControler.ChunkType name;
+    public ChunkControler.TilemapTypes level;
     public float height;
+    public int difficulty;
     public List<TileBase> tileSet;
 }

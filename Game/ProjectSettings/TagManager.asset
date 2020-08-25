@@ -41,3 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Water
+    uniqueID: 174702741
+    locked: 0
+  - name: Graund
+    uniqueID: 2515982441
+    locked: 0
+  - name: Road
+    uniqueID: 25612379
+    locked: 0
+  - name: Object
+    uniqueID: 2944578563
+    locked: 0

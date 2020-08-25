@@ -4,16 +4,16 @@ using UnityEngine;
 using UnityEngine.Tilemaps;
 
 [System.Serializable]
+public class WayTiles
+{
+    public List<TypeOfWays> typeOfWays;
+    public List<TileBase> collider;
+}
+
+[System.Serializable]
 public class TypeOfWays
 {
-    public TileBase road;
-    public TileBase rail;
-    public TileBase hybrid;
-
-    public TypeOfWays(TileBase road, TileBase rail, TileBase hybrid)
-    {
-        this.road = road;
-        this.rail = rail;
-        this.hybrid = hybrid;
-    }
+    public List<TileBase> road;
+    public List<TileBase> rail;
+    public List<TileBase> hybrid;
 }
